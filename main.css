@@ -1,0 +1,295 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Alegreya", serif;
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.header {
+  z-index: 2;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.header img {
+  width: 180px;
+  float: left;
+  padding-top: 15px;
+}
+
+.header .links {
+  float: right;
+}
+
+.header .links a {
+  display: inline-block;
+  color: white;
+  padding: 30px 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+.home {
+  position: relative;
+  height: 100vh;
+  background-image: url("images/drew-coffman-1872.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.home .container .info {
+  text-align: center;
+  padding-top: 200px;
+  color: white;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.home .container .info p {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.home .container .info h1 {
+  font-size: 80px;
+  margin: 10px 0;
+  font-weight: 200;
+}
+
+.home .container .info button {
+  padding: 20px 30px;
+  margin-right: 10px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.home .container .info button.first {
+  background-color: #8e7754;
+  color: white;
+  border: none;
+  border: 1px solid transparent;
+}
+
+.home .container .info button.second {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.about {
+  background-color: #ffffff;
+  padding: 80px 0;
+}
+
+.about .container img {
+  width: 45%;
+}
+
+.about .container .about-info {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 45px;
+  margin-left: 100px;
+  color: #686868;
+}
+
+.section-title {
+  font-size: 30px;
+  color: #303030;
+  font-weight: 200;
+}
+
+.about .container .about-info .icons .icon p {
+  display: inline-block;
+  margin: 0;
+  padding: 25px;
+}
+
+.about .container .about-info .icons .icon img {
+  width: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 1px solid #00000026;
+}
+
+.location {
+  padding: 80px 0;
+  background-color: #f8f8f8;
+}
+
+.location .container .location-info {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 100px;
+  margin-right: 100px;
+}
+
+.location .container .location-info p {
+  color: #686868;
+  font-size: 18px;
+}
+
+.location .container img {
+  width: 45%;
+}
+.baking {
+  padding: 80px 0;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.baking .container .baking-title p {
+  color: #686868;
+}
+
+.baking .container .baking-items {
+  margin-top: 60px;
+}
+
+.baking .container .baking-items .item {
+  width: 30%;
+  float: left;
+  padding: 0 20px;
+}
+
+.baking .container .baking-items .item img {
+  width: 100%;
+}
+
+.baking .container .baking-items .item h3 {
+  font-size: 20px;
+  color: #303030;
+  font-weight: 200;
+}
+
+.baking .container .baking-items .item p {
+  color: #686868;
+}
+.contact {
+  background-color: #f8f8f8;
+  padding: 80px 0;
+}
+
+.contact .container .contact-info {
+  width: 45%;
+  float: left;
+  color: #686868;
+}
+
+.contact .container .contact-info p {
+  font-size: 17px;
+}
+
+.contact .container .contact-info .contact-icons {
+  margin-top: 20px;
+}
+
+.contact .container .contact-info .contact-icons .contact-icon {
+  margin-top: 20px;
+}
+
+.contact .container .contact-icons .contact-icon img {
+  width: 35px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: #8e7754;
+}
+
+.contact .container .contact-info .contact-icons .contact-icon span {
+  vertical-align: top;
+  padding-top: 5px;
+  padding-left: 10px;
+  display: inline-block;
+}
+
+.contact .container .google-map {
+  width: 45%;
+  float: right;
+}
+.footer {
+  padding: 80px 0;
+  background-color: #403d38;
+}
+
+.footer .container .footer-content {
+  width: 24%;
+  padding-right: 10px;
+  float: left;
+  color: #929292;
+}
+
+.footer .container .footer-content h2 {
+  color: #ffffff;
+  font-weight: 200;
+}
+
+.footer .container .footer-content p {
+  font-size: 20px;
+}
+
+.footer .container .footer-content span {
+  display: block;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+.footer .container .footer-content img {
+  width: 30px;
+  display: inline-block;
+  vertical-align: bottom;
+  padding-right: 5px;
+}
+
+.end {
+  padding: 80px 0;
+  background-color: #353330;
+  color: #929292;
+  font-size: 20px;
+}
+
+.end .container {
+  text-align: center;
+}
+.end .container img {
+  width: 450px;
+}
+.end .container .icons .img {
+  width: 50px;
+  display: inline-block;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+.end .container .icons img {
+  width: 100%;
+  background-color: #484540;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
