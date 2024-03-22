@@ -246,22 +246,24 @@ body {
 .footer .container .footer-content h2 {
   color: #ffffff;
   font-weight: 200;
-}
-
-.footer .container .footer-content p {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .footer .container .footer-content span {
   display: block;
   padding-bottom: 10px;
-  font-size: 20px;
 }
 .footer .container .footer-content img {
-  width: 30px;
+  width: 20px;
   display: inline-block;
   vertical-align: bottom;
   padding-right: 5px;
+}
+.footer .container .back-img {
+  background-image: url("images/contact-details-map.png");
+  background-size: 250px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
 }
 
 .end {
